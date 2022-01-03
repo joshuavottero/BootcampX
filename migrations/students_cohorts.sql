@@ -1,3 +1,7 @@
+
+DROP Table IF EXISTS cohorts;
+DROP Table IF EXISTS students; 
+
 CREATE TABLE cohorts (
   id SERIAL PRIMARY KEY NOT NULL,
   name VARCHAR(255) NOT NULL,
